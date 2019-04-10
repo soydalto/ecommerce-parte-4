@@ -1,0 +1,166 @@
+.fruit img {
+	width: 130px;
+	height: 130px;
+	background-color: #fff;
+	border: 3px solid #fff;
+}
+.fruit-section {
+	display: flex;
+	justify-content: space-between;
+}
+.fruit {
+	margin: 30px
+}
+
+.buy {
+	background-color: #48e;
+	padding: 6px 9px;
+	color: #eee;
+	border: none;
+	transition: all 0.12s;
+}
+.buy:hover {
+	background-color: #26c;
+	padding: 6px 9px;
+	color: #fff;
+	border: none;
+}
+
+.about-fruit {
+	text-align: center;
+}
+.about-fruit b {
+	color: #48e
+}
+.about-fruit p {
+	color: #676767;
+	margin-bottom: 3px
+}
+.about-fruit span {
+	color: #48e
+}
+
+.fruits {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.all-fruits {
+	flex: 2;
+	margin-left: 90px;
+	margin-right: 40px;
+}
+.show-cart {
+	flex: 1;
+	min-width: 300px
+}
+
+.show-cart {
+	padding: 26px
+}
+
+
+.show-cart .h3-text {
+background-color: #48e;
+padding: 12px;
+color: #fff
+}
+
+.show-cart .cart {
+	background-color: #fff;
+}
+
+.cart .item {
+	padding: 8px 25px;
+    border-top: solid 1px rgba(38,136,238,0.35);
+    color: #48e
+}
+
+.item p {
+	color: #454545
+}
+
+.item p b {
+	color: #676767
+}
+
+.cart .item:last-child {
+	padding-bottom: 16px
+}
+.cart .item:first-child {
+	padding-top: 16px
+}
+
+.show-cart .final-result{
+	padding: 16px;
+	text-align: center;
+}
+
+.final-result b {
+	color: #676767
+}
+
+.separate {
+	margin-left: 9px
+}
+
+
+
+@media screen and (max-width: 1120px){
+	.all-fruits {
+		margin: 0
+	}
+
+}
+
+@media screen and (max-width: 808px){
+	.fruits {
+		display: block;
+	}
+	.fruit-section {
+		display: flex;
+		text-align: center;
+		flex-wrap: wrap;
+		padding: 20px 35px
+	}
+	.fruit {
+		margin: 10px;
+		justify-content: space-around;
+	}
+}
+@media screen and (max-width: 550px){
+	.fruit-section {
+		padding: 20px 65px
+	}
+}
+@media screen and (max-width: 480px){
+	.fruit-section {
+		padding: 20px 45px
+	}
+}
+@media screen and (max-width: 420px){
+	.fruit-section {
+		padding: 20px 35px
+	}
+}
+@media screen and (max-width: 390px){
+	.fruit-section {
+		padding: 20px 28px
+	}
+}
+@media screen and (max-width: 365px){
+	.fruit-section {
+		padding: 20px 15px
+	}
+}
+@media screen and (max-width: 350px){
+	.fruit-section {
+		padding: 20px 5px
+	}
+	.fruit {
+		margin: 5px
+	}
+	.show-cart {
+		min-width: 160px
+	}
+}
